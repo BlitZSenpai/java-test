@@ -9,7 +9,7 @@ public class Main {
     for (int n[] : num) {
       for (int m : n) {
         m = (int) (Math.random() * 10);
-        System.out.print(m + "");
+        System.out.print(m + " ");
       }
       System.out.println();
     }

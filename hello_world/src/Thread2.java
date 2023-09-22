@@ -1,4 +1,4 @@
-public class A extends Thread {
+class A extends Thread {
   public void start() {
     System.out.println("Thread A");
     for (int i = 0; i <= 3; i++) {
@@ -7,7 +7,7 @@ public class A extends Thread {
   }
 }
 
-public class B extends Thread {
+class B extends Thread {
   public void start() {
     System.out.println("Thread B");
     for (int i = 0; i <= 3; i++) {

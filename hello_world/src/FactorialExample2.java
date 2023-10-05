@@ -8,7 +8,7 @@ class FactorialExample2 {
 
   public static void main(String args[]) {
     int fact = 1;
-    int number = 4;// It is the number to calculate factorial
+    int number = 5;
     fact = factorial(number);
     System.out.println("Factorial of " + number + " is: " + fact);
   }
